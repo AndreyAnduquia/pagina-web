@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Teko&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b29a4ec872.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>logo</h1>
+        <!-- <div class="logo">
+            <img src="img/LOGO1.png" alt="">
+        </div> -->
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="Nosotros.html">NOSOTROS</a>
+            <a href="Contacto.html">CONTACTO</a>
+        </nav>
+        <div class="carrito"> -->
+            <p class="icono-carro"><i class="fa-solid fa-cart-shopping"></i></p>
+            <!-- <button>VACIAR CARRITO</button> -->
+        </div>
+    </header>
+    <div class="contact">
+
+        <h1 class="logo">Contactanos</h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h2>Contacto</h2>
+                <form>
+                    <p>
+                        <label onclick="Nombre()">Nombre Completo</label>
+                        <input type="text" name="NombreCompleto" id="NombreCompleto">
+                    </p>
+                    <p>
+                        <label onclick="email()">Email</label>
+                        <input type="text" name="Email" id="Email">
+                    </p>
+                    <p>
+                        <label onclick="telefono()">Telefono</label>
+                        <input type="Tel" name="Telefono" id="Telefono">
+                    </p>
+                    <p>
+                        <label onclick="asunto()">Asunto</label>
+                        <input type="text" name="Asunto" id="Asunto">
+                    </p>
+                    <p class="block">
+                        <label onclick="mensaje()">Mensaje</label>
+                        <textarea name="Mensaje" rows="10"></textarea>
+                    </p>
+                    <p class="block">
+                        <button id="boton">
+                            Enviar
+                        </button>
+                        
+                    </p>
+                    <div class="limpiar">
+                        <input type="reset" value="limpiar" class="boton">
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h4>Mas Informacion</h4>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-location-dot"></i>Lugar</li>
+                    <li><i class="fa-sharp fa-solid fa-phone"></i>3053571219</li>
+                    <li><i class="fa-sharp fa-solid fa-envelope-open-text"></i>andreyaap2003@gmail.com</li>
+                </ul>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d15931.69072864738!2d-76.5276128!3d3.3690765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m3!3m2!1d3.4095134999999996!2d-76.5498703!4m0!5e0!3m2!1ses!2sco!4v1662857215569!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Derechos reservados | Andrey Anduquia
+    </footer>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>
